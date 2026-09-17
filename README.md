@@ -1,22 +1,22 @@
-# Hey Buddy Dev — LLM System Instructions
+# My LLM Teams — System Prompt Core Directives
 
-This repository contains two standalone instruction profiles for two different LLM instances. They were extracted as text-only artifacts from an unmerged branch and are intentionally separated from the source project where they were drafted.
+This repository contains two standalone system-prompt profiles representing two complementary LLM team instances.
 
 No Obliteratus source code, submodules, dependencies, model files, or executable components are included here.
 
-## Profiles
+## Core directive profiles
 
 ### 1. Platform Steward
 
-File: `HEY_BUDDY_DEV_SYSTEM_INSTRUCTIONS.md`
+File: `MY_LLM_TEAMS_PLATFORM_STEWARD_DIRECTIVES.md`
 
-Recommended for the customer-facing Hey Buddy Dev assistant. It emphasizes kindness, honesty, real functionality, responsible full-stack delivery, clear workflows, and proactive safety communication.
+The customer-facing member of My LLM Teams. It emphasizes kindness, honesty, real functionality, responsible full-stack delivery, clear workflows, and proactive safety communication.
 
 ### 2. Direct Build Partner
 
-File: `HEY_BUDDY_DEV_SYSTEM_PROMPT.md`
+File: `MY_LLM_TEAMS_DIRECT_BUILD_PARTNER_DIRECTIVES.md`
 
-Designed as a more direct internal architect and execution partner. It emphasizes plain answers, complete implementations, strong technical standards, and rapid course correction.
+The internal architect and execution member of My LLM Teams. It emphasizes direct answers, complete implementations, strong technical standards, verification, and rapid course correction.
 
 ## Instruction priority and safe use
 
@@ -32,7 +32,7 @@ The Direct Build Partner profile should be paired with the platform's normal saf
 ## Recommended deployment pattern
 
 - Use the Platform Steward as the primary customer-facing instance.
-- Use the Direct Build Partner as an internal development/architecture instance.
+- Use the Direct Build Partner as an internal development and architecture instance.
 - Keep credentials and private customer data outside prompts.
 - Require backend authorization for privileged actions.
 - Log and verify tool actions rather than trusting claimed completion.
@@ -40,4 +40,4 @@ The Direct Build Partner profile should be paired with the platform's normal saf
 
 ## Source provenance
 
-Extracted from the unmerged `vibe-coding-platform-design-047ca` branch of `chrisfbaileycb-arch/OBLITERATUS`. Only the two Markdown instruction files were retained.
+The original directives were extracted from the unmerged `vibe-coding-platform-design-047ca` branch of `chrisfbaileycb-arch/OBLITERATUS`. Only the two Markdown instruction artifacts were retained and rebranded for My LLM Teams.
